@@ -1,0 +1,117 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.container{
+    height:96%;
+    width: 98%;
+    background-color: burlywood;
+    position: relative;
+    border-radius: 15px;
+}
+.box{
+    height:100%;
+    width: 65%;
+    background-color:rgb(244, 196, 0);
+    border-radius: 15px;
+    padding: 20px;
+}
+h1{
+    font-size: 130px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    position: absolute;
+    top: 45px;
+    left:38px
+}
+#head{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 5%;
+    
+    
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #222;
+    position: absolute;
+    top: 39%;
+    right: 44%;
+    left: 3%;
+}
+
+img{
+    height: 90%;
+    width: 58%;
+    position:absolute;
+    top: 9%;
+    left: 43%;
+
+}
+#Logo{
+    height: 21%;
+    width: 35%;
+    position: absolute;
+    top: 60%;
+    left: 6%;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    cursor: pointer;
+}
+
+.menu span{
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    border-radius: 10px;
+}
+.menu{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+.dots{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    align-items: center;
+}
+
+.dot{
+    width: 14px;
+    height: 14px;
+    background-color: #f4c400;
+    border-radius: 50%;
+}
+
+.active{
+    background-color: black;
+}
+.dots{
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+}
